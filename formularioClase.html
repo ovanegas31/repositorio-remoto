@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulario de registro </title>
+</head>
+<body background="..\fondo2.jpg">
+    <h1> Registro para vacunación COVID-19</h1> 
+
+    <form action="" method="GET">
+
+        <fieldset>
+        <legend> Datos personales </legend>
+        <label> Nombre: </label><input type="text" name="nombre" maxlength="50"><br><br>
+        <label> Apellido: </label><input type="text" name="Apellido: <input type="text" name="nombre" maxlength="50">
+        </fieldset>
+
+        <fieldset>
+            <legend> Información adicional </legend>
+        <p>
+            <label>Sexo: </label> <input type="radio" name="sexo" value="Hombre"/> Hombre
+            <input type="radio" name="sexo" value="Mujer"/> Mujer
+        </p>
+       
+
+        <label> Correo: </label> <input type="email" name="correo"/>   
+        <label> Contraseña : </label> <input type="password" name="contraseña"/> <br> <br/>
+        <label for="cargo"> Rol en el Equipo </label>  
+        <select id="so" name="cargo">
+        <option value="" selected="selected">- selecciona -</option>
+        <option value="windows"> Programador </option>
+        <option value="mac">Analista</option>
+        <option value="linux">Soporte técnico</option>
+        <option value="otro">Otro</option>
+        </select>
+        </select>
+         
+    </fieldset>
+        <p>
+        <input type="checkbox" name="condiciones"/> "Declaro haber leído y aceptar las
+        condiciones generales del programa y la normativa sobre protección de datos"</p>
+
+        <input type="submit" value="Enviar"> 
+        <input type="reset" name="limpiar" value="Borrar" />
+
+    </form>
+</body>
+</html>
