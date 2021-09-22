@@ -1,0 +1,33 @@
+h1 {
+    color: #d9e6ee;
+    text-align: center;
+    background-color: rgb(16, 85, 109);
+  }
+form {
+    width: 350px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: rgb(181, 186, 190);
+  }
+  
+form input {
+    padding: 3px 10px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    margin: 8px 10px;
+    display: inline-block;
+  }
+  
+button {
+    text-align: center;
+    font-weight: bold;
+  }
+
+body {
+    background-image: url("fondo6.jpg");
+    background-attachment: fixed;
+   
+    
+  }
+
