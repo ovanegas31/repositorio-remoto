@@ -8,42 +8,67 @@
 
     <style>
 
-        body { background-color: #d1a270;
+        body {
+            background-image: url(fondo7.jpg);
             font-family:Helvetica, sans-serif;
-            color: #dab894; 
+            color: #998167; 
             font-size:18px;
         }
 
         h1 { font-size: 40px}
 
+        h2 {text-align: center; font-size:30px;
+            color: rgb(185, 176, 176);
+            }
+
         a { color: #ad5533;
             text-decoration: none;
             text-transform: capitalize;
             font-style: italic;
-        font-weight: bold;}
+            font-weight: bold;}
 
         div { width: 50%;
             padding: 10px;
-            border-radius: 3px;
+            border-radius: 8px;
             background-color:#e6d5bb;
-            margin: 50px 10px 20px 40px ;
+            margin: 50px 5px 20px 40px ;
             box-shadow: 0 0 20px rgb(0,0,0.1);
+            
+        }
+        .contenido{
+            margin-left: 270px;
+            margin-top: 0px;
+            padding:0px;
+            position: absolute; left: 15px; top: 160px; 
+            width: 20%;
+            border-radius: 5px;
+        }
 
-
-
+        .animado { 
+            position: absolute; left: 480px; top: 130px;
+            background-color: transparent;
+        }
+    
     </style>
-
 
 </head>
 <body>
+    <h2>Aplicación de reglas de estilo con html y css</h2>
     <div>
+        
         <h1>Tabla de contenidos</h1>
         <ol>
             <li> <a href="https://www.w3schools.com/html/default.asp"> Tags HTML </a></li>
-           
             <li> <a href="https://www.w3schools.com/css/default.asp"> Hojas de estilo CSS </a></li>
-
+            <li> <a href="https://www.w3schools.com/css/default.asp">JavaScript</a></li>
         </ol>
     </div>
-</body>
+    
+    <div class="contenido">
+        <img src="..\img3.jpg" width="100%">
+    </div>
+   
+    <img class="animado" src="..\gif4.gif" width="20%">
+
+    </body>
 </html>

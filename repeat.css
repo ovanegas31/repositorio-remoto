@@ -1,0 +1,34 @@
+
+ol,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  margin-bottom: 0px;
+}
+div {
+    background-image: url(https://mdn.mozillademos.org/files/12005/starsolid.gif);
+    width: 160px;
+    height: 70px;
+}
+
+/* Background repeats */
+.one {
+  background-repeat: no-repeat;
+}
+.two {
+  background-repeat: repeat;
+}
+.three {
+  background-repeat: repeat-x;
+}
+.four {
+  background-repeat: repeat-y;
+}
+.five {
+  background-repeat: space;
+}
+.six {
+  background-repeat: round;
+}

@@ -1,0 +1,39 @@
+body{
+    background-image: url(../fondo7.jpg);
+    font-family: Helvetica, sans-serif;
+    color: #b89d80;
+    font-size: 18px;
+}
+
+h1{
+    text-align: center;font-size: 30px;
+    color:#e6d5bb
+}
+
+div{
+    background-color: #e6d5bb;
+    width:50%;
+    border-radius: 5px;
+    margin: 50px 10px 0px 100px;
+    padding: 25px
+}
+
+a{
+    text-decoration: none;
+    font-style:italic;
+    font-weight: bold;
+    color: #ad5533;
+    text-transform: capitalize;
+}
+
+.contenido{
+    width: 20%;
+    margin-top:0px;
+    margin-left: 350px;
+    position:absolute; left:50px; top: 135px;
+    background-color: transparent;
+}
+
+.animado{
+    position:absolute; left:650px; top: 110px;
+}
